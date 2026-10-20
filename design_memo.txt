@@ -1,0 +1,18 @@
+Recursive insertion works by first checking if there is a root,
+if not return a message saying it can't insert without a root.
+After that initial check, checks if the current node is the 
+manager you want to insert under, if a match check the specified
+branch, if it's full return a message. In the event
+that current node is not the manager you're trying to insert
+it goes through the subtrees checking the left and right branches
+recurively until you find the manager name. If the managers name
+is not in the tree return a message saying that the manager isn't 
+in the tree. I think the biggest challenged I faced when adding
+a new employee is trying to remember if the left or right was filled
+a change to fix this could be having the function check if one
+side is filled and if so filling the other but that's just if I
+were to continue development on the tree. Trees would be preferable 
+to other data structures when you have highly hieracrchical data. A 
+prime example would be this very assignment, having a team structure
+with managers and employees under them, situations like that make 
+perfect situations to use trees in.
